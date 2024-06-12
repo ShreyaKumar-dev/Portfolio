@@ -7,6 +7,8 @@
 body{
     /* font-family: 'Poppins', sans-serif; */
     background-color: #ededed;
+    min-height: 100dvh;
+    height: auto;
 }
 
 .navspace{
@@ -95,4 +97,18 @@ figure{
 
 .contact>li img{
     height: 26px;
+}
+
+.nameabt{
+    font-family: "Noto Serif Display", serif;
+    /* font-size: 70px; */
+    color: #262930;
+}
+
+.avatar{
+    /* border-radius: 50%; */
+    height: 250px;
+    width: 250px;
+    box-shadow: 1px 1px 15px #a6a6a6;
+    
 }
