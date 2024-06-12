@@ -107,8 +107,20 @@ figure{
 
 .avatar{
     /* border-radius: 50%; */
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     box-shadow: 1px 1px 15px #a6a6a6;
-    
 }
+
+.skill{
+    text-align: right;
+}
+
+.skillabt{
+    font-family: "Noto Serif Display", serif;
+    /* font-size: 40px; */
+    color: #262930;
+    margin-top: 60px;
+    /* margin-right: 20px; */
+}
+
