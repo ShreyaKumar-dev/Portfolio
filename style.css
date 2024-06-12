@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: 'Poppins', sans-serif; */
+    background-color: #ededed;
+}
+
+.navspace{
+    width: 35%;
+    justify-content: space-evenly;
+    font-weight: 600;
+}
+
+.navstyle{
+    color: #262930;
+}
+
+.navstyle:hover{
+    color: #262930;
+    font-weight: bold;
+}
+
+.imgstyle{
+    border-radius: 30px;
+    height: 450px;
+}
+
+.name{
+    font-family: "Noto Serif Display", serif;
+    font-size: 80px;
+}
+
+.sub{
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+
+.maintxt{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.btnstyle{
+    width: 200px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+    color: #262930;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 80px;
+}
+
