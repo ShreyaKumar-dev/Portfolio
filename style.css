@@ -89,7 +89,7 @@ figure{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 70px;
+    /* margin-top: 70px; */
     width: 190px;
 }
 
@@ -204,10 +204,5 @@ figure{
 .context{
     color: #737373;
     width: 480px;
-}
-
-.researchp>.context{
-    color: #737373;
-    /* letter-spacing: 0.5px; */
-    width: 480px;
+    /* line-height: 1.8; */
 }
