@@ -38,8 +38,8 @@ body{
 }
 
 .sub{
-    font-size: 25px;
-    margin-bottom: 50px;
+    font-size: 30px;
+    margin-bottom: 48px;
     color: #262930;
 }
 
@@ -137,7 +137,7 @@ figure{
 
 .internship>.tag{
     font-size: 20px;
-    color: #262930;
+    /* color: #262930; */
     /* border-left: 2px solid #262930; */
     /* border-radius: 50px; */
     width: 230px;
@@ -163,7 +163,7 @@ figure{
 
 .researchp>.tag{
     font-size: 20px;
-    color: #262930;
+    /* color: #262930; */
     /* border-left: 2px solid #262930; */
     /* border-radius: 50px; */
     width: 290px;
@@ -176,7 +176,7 @@ figure{
 
 .education>.tag{
     font-size: 20px;
-    color: #262930;
+    /* color: #262930; */
     /* border-left: 2px solid #262930; */
     /* border-radius: 50px; */
     width: 220px;
@@ -185,4 +185,29 @@ figure{
     justify-content: space-between;
     align-items: center;
     font-family: "Noto Serif Display", serif;
+}
+
+.heading{
+    letter-spacing: 0.5px;
+    /* font-weight: 400; */
+}
+
+.dates{
+    color: #a6a6a6;
+}
+
+.designation{
+    font-size: 18px;
+    color: #545454;
+}
+
+.context{
+    color: #737373;
+    width: 480px;
+}
+
+.researchp>.context{
+    color: #737373;
+    /* letter-spacing: 0.5px; */
+    width: 480px;
 }
