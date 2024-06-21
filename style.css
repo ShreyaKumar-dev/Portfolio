@@ -29,6 +29,7 @@ body{
 .imgstyle{
     border-radius: 30px;
     height: 450px;
+    box-shadow: 1px 1px 50px #a6a6a6;
 }
 
 .name{
@@ -86,11 +87,11 @@ figure{
 }
 
 .contact{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* margin-top: 70px; */
-    width: 190px;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4,65px);
+    margin-top: -25px;
 }
 
 .contact>li{
@@ -98,7 +99,7 @@ figure{
 }
 
 .contact>li img{
-    height: 26px;
+    height: 35px;
 }
 
 .nameabt{
@@ -108,14 +109,9 @@ figure{
 }
 
 .avatar{
-    /* border-radius: 50%; */
     height: 210px;
     width: 210px;
     box-shadow: 1px 1px 15px #a6a6a6;
-}
-
-.skill{
-    text-align: right;
 }
 
 .skillabt{
@@ -123,7 +119,7 @@ figure{
     color: #262930;
 }
 
-.skill .skillimg{
+.skillimg{
     display: grid;
     justify-items: end;
     justify-content: end;
@@ -205,4 +201,32 @@ figure{
     color: #737373;
     width: 480px;
     /* line-height: 1.8; */
+}
+
+.about{
+    width: 100%;
+    background: #E4E4E4;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.abt{
+    display: flex;
+    flex-direction: row;
+    margin-right: 250px;
+    margin-left: 250px;
+    justify-content: space-between;
+}
+
+.abt_text{
+    width: 55%;
+    /* margin-right: 150px ; */
+}
+
+.abt_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: end;
 }
