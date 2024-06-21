@@ -29,7 +29,8 @@ body{
 .imgstyle{
     border-radius: 30px;
     height: 450px;
-    box-shadow: 1px 1px 50px #a6a6a6;
+    box-shadow: 1px 1px 15px #878787;
+    border: 1px solid #c2c2c2;
 }
 
 .name{
@@ -86,7 +87,7 @@ figure{
     padding-left: 15px;
 }
 
-.contact{
+/* .contact{
     display: grid;
     justify-items: center;
     justify-content: center;
@@ -100,7 +101,7 @@ figure{
 
 .contact>li img{
     height: 35px;
-}
+} */
 
 .nameabt{
     font-family: "Noto Serif Display", serif;
@@ -209,6 +210,7 @@ figure{
     display: flex;
     flex-direction: column;
     border-radius: 50px;
+    box-shadow: 1px 1px 20px #B9B9B9;
 }
 
 .abt{
