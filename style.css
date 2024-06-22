@@ -232,3 +232,56 @@ figure{
     justify-content: flex-start;
     align-items: end;
 }
+
+.item{
+    display: flex;
+    flex-direction: row;
+}
+
+.item img{
+    height: 35px;
+    width: 35px;
+}
+
+.item .item-txt{
+    border-left: 2px solid #262930;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+.item .item-txt .tl-duration{
+    padding: 0.3rem 0.7rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    /* font-weight: 500; */
+    background-color: #B9B9B9;
+}
+
+.item .item-txt h3{
+    font-weight: 400;
+    font-size: large;
+    color: #545454;
+    /* margin-top: 5px; */
+    letter-spacing: 0.5px;
+}
+
+.item .item-txt .main{
+    font-size: 20px;
+    /* margin-bottom: 5px; */
+}
+
+.item .item-txt .item-sub{
+    /* font-size: 18px; */
+    color: #737373;
+}
+
+.extra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
