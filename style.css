@@ -47,14 +47,14 @@ body{
 
 .sub{
     font-size: 30px;
-    margin-bottom: 48px;
+    margin-bottom: 42px;
     color: #262930;
 }
 
 .maintxt{
     font-size: 18px;
-    line-height: 25px;
-    color: #262930;
+    line-height: 28px;
+    color: #545454;
 }
 
 .btnstyle{
@@ -88,8 +88,8 @@ body{
 }
 
 figure{
-    color: #262930;
-    border-left: 2.5px solid #262930;
+    color: #545454;
+    border-left: 2.5px solid #545454;
     padding-left: 15px;
 }
 
