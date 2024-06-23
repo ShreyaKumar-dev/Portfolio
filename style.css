@@ -301,9 +301,41 @@ figure{
 .project{
     width: 100%;
     background: #d5d5d5;
-    display: flex;
-    flex-direction: column;
     border-radius: 50px;
     box-shadow: 1px 1px 20px #9e9e9e;
     margin-top: -52px;
+}
+
+.proj{
+    display: flex;
+    flex-direction: row;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading img{
+    height: 50px;
+    width: 50px;
+    margin-right: 30px;
+}
+
+.heading h1{
+    font-family: "Noto Serif Display", serif;
+    font-size: 50px;
+    color: #262930;
+}
+
+.heading h1 span{
+    /* color: #737373; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 0;
 }
