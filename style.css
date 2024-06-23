@@ -339,6 +339,54 @@ figure{
     margin-top: 0;
 }
 
-.score{
-    border: 1px solid red;
+.slider{
+    width: 100%;
+    background: #ededed;
+    height: var(--height);
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent,
+        #000 4% 96%,
+        transparent
+    );
+    mask-image: linear-gradient(
+        to right,
+        transparent,
+        #000 4% 96%,
+        transparent
+    );
+}
+
+.slider .list{
+    display: flex;
+    width: 100%;
+    min-width: calc(var(--width) * var(--quantity));
+    position: relative;
+}
+
+.slider .list .item{
+    width: var(--width);
+    height: var(--height);
+    position: absolute;
+    left: 100%;
+    animation: autoRun 8s linear infinite;
+    animation-delay: calc((8s / var(--quantity)) * (var(--position) - 1));
+    margin: 0;
+}
+
+.slider .list .item p{
+    width: 85%;
+    font-size: 12px;
+    color: #545454;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+@keyframes autoRun{
+    from{
+        left: 100%;
+    }to{
+        left: calc(var(--width) * -1);
+    }
 }
