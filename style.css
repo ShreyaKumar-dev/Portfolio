@@ -237,53 +237,58 @@ figure{
 
 .abt_text{
     width: 55%;
-    /* margin-right: 150px ; */
 }
 
 .item{
     display: flex;
     flex-direction: row;
+    width: 250px;
 }
 
 .item img{
     height: 35px;
     width: 35px;
+    margin-right: 20px;
 }
 
 .item .item-txt{
     border-left: 2px solid #9b9b9b;
-    margin-left: 20px;
     padding-left: 30px;
 }
 
 .item .item-txt .tl-duration{
-    padding: 0.3rem 0.7rem;
+    padding: 0.3rem 0.8rem;
     display: inline-block;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 400;
     border-radius: 16px;
     justify-content: center;
     align-items: center;
     text-transform: capitalize;
-    /* font-weight: 500; */
-    background-color: #ededed;
+    background-color: #95b0b6;
+    color: #ededed;
+    letter-spacing: 0.5px;
 }
 
 .item .item-txt h3{
     font-weight: 400;
-    font-size: large;
+    font-size: 16px;
     color: #545454;
-    /* margin-top: 5px; */
     letter-spacing: 0.5px;
+    margin-bottom: 15px;
 }
 
 .item .item-txt .main{
-    font-size: 20px;
-    font-weight: 350;
+    font-size: 17px;
+    font-weight: 400;
+    color: #262930;
+    margin-bottom: 10px;
 }
 
 .item .item-txt .item-sub{
-    /* font-size: 18px; */
     color: #737373;
+    font-size: 14px;
+    margin-bottom: 0px;
 }
 
