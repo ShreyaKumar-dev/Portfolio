@@ -84,7 +84,7 @@ body{
     background-color: #d581a1;
     color: #fafafa;
     border: 4px solid #d581a1;
-    transition: 0.15s ease-in-out;
+    transition: 0.08s ease-in-out;
 }
 
 figure{
@@ -347,13 +347,13 @@ figure{
     -webkit-mask-image: linear-gradient(
         to right,
         transparent,
-        #000 4% 96%,
+        #000 3% 97%,
         transparent
     );
     mask-image: linear-gradient(
         to right,
         transparent,
-        #000 4% 96%,
+        #000 3% 97%,
         transparent
     );
 }
