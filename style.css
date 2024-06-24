@@ -390,3 +390,38 @@ figure{
         left: calc(var(--width) * -1);
     }
 }
+
+/* .projlist{
+    display: flex;
+    flex-direction: column;
+} */
+
+.projdescription{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projdescription h1{
+    color: #545454;
+    margin-right: 50px;
+}
+
+.projcontent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.projtag{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projdescription img{
+    height: 300px;
+    border-radius: 10px;
+}
