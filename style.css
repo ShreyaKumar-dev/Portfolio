@@ -132,7 +132,6 @@ figure{
     height: 210px;
     width: 210px;
     box-shadow: 1px 1px 15px #a6a6a6;
-    margin-top: -25px;
 }
 
 .skillabt{
@@ -401,7 +400,7 @@ figure{
     flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .projdescription h1{
@@ -424,4 +423,8 @@ figure{
 .projdescription img{
     height: 300px;
     border-radius: 10px;
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: flex-start;
+    align-items: end;
 }
