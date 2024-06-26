@@ -307,9 +307,10 @@ figure{
 
 .proj{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     margin-right: 250px;
     margin-left: 250px;
+    flex-wrap: wrap;
 }
 
 .heading{
@@ -392,7 +393,7 @@ figure{
 
 .projdescription{
     display: grid;
-    grid-template-columns: 1fr 4fr 200px;
+    grid-template-columns: 1fr 4fr 250px;
     margin-bottom: 40px;
     padding-bottom: 40px;
     border-bottom: 0.5px solid #a3a3a3;
@@ -426,16 +427,17 @@ figure{
 .projtag p{
     border-radius: 16px;
     background: #ededed;
-    padding: 0.2rem 0.9rem;
+    padding: 0.15rem 1rem;
     margin-right: 20px;
     color: #545454;
     display: inline-block;
     letter-spacing: 0.2px;
+    font-size: 13px;
 }
 
 .projdescription img{
-    height: 300px;
-    border-radius: 10px;
+    /* height: 300px; */
+    border-radius: 5px;
 }
 
 /* .projdescription img:hover{
@@ -448,7 +450,7 @@ figure{
     justify-self: end;
 }
 
-.proj>p{
+.proj>a>p{
     font-size: 18px;
     color: #545454;
     letter-spacing: 0.5px;
@@ -456,8 +458,17 @@ figure{
     align-items: center;
 }
 
-.proj>p>img{
+.proj>a>p>img{
     height: 12px;
     width: 35px;
     margin-left: 10px;
+}
+
+.projlist a{
+    text-decoration: none;
+}
+
+.proj a{
+    text-decoration: none;
+    color: #262930;
 }
