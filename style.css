@@ -398,6 +398,9 @@ figure{
     margin-bottom: 40px;
     padding-bottom: 40px;
     border-bottom: 0.5px solid #a3a3a3;
+    /* background: #ededed; */
+    /* border-radius: 10px; */
+    /* padding: 30px 50px; */
 }
 
 .projdescription h1{
@@ -410,12 +413,17 @@ figure{
     flex-wrap: wrap;
 }
 
-.projcontent>p{
+.projcontent>a>p{
     font-size: 25px;
     color: #545454;
     font-weight: 500;
     letter-spacing: 0.5px;
     margin-bottom: 25px;
+}
+
+.projcontent>a>p>img{
+    height: 12px;
+    margin-left: 30px;
 }
 
 .projtag{
@@ -433,7 +441,7 @@ figure{
     color: #545454;
     display: inline-block;
     letter-spacing: 0.2px;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .projdescription img{
@@ -469,7 +477,7 @@ figure{
     text-decoration: none;
 }
 
-.proj a{
+.proj>a{
     text-decoration: none;
     color: #262930;
     text-transform: uppercase;
