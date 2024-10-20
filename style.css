@@ -236,8 +236,8 @@ figure{
 .abt{
     display: flex;
     flex-direction: row;
-    margin-right: 250px;
-    margin-left: 250px;
+    /* margin-right: 250px;
+    margin-left: 250px; */
     justify-content: space-between;
 }
 
