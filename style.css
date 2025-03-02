@@ -227,23 +227,18 @@ figure{
 .about{
     width: 100%;
     background: #E4E4E4;
-    display: flex;
-    flex-direction: column;
     border-radius: 50px;
     box-shadow: 1px 1px 20px #B9B9B9;
 }
 
 .abt{
-    display: flex;
-    flex-direction: row;
-    /* margin-right: 250px;
-    margin-left: 250px; */
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.abt_text{
+/* .abt_text{
     width: 55%;
-}
+} */
 
 .item{
     display: flex;
