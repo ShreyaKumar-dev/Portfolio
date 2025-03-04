@@ -77,7 +77,6 @@ body{
 .btnstyle>img{
     width: 40px;
     height: 40px;
-
 }
 
 .btnstyle:hover{
@@ -109,6 +108,21 @@ figure{
     height: 35px;
 } */
 
+/**************************** ABOUT ME SECTION **********************************/
+
+.about{
+    width: 100%;
+    background: #E4E4E4;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px #B9B9B9;
+}
+
+.abt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 100px;
+}
+
 .nameabt{
     font-family: "Noto Serif Display", serif;
     font-size: 50px;
@@ -132,13 +146,16 @@ figure{
     height: 210px;
     width: 210px;
     box-shadow: 1px 1px 15px #a6a6a6;
-    margin-top: -28px;
 }
 
-.skillabt{
+.avatar:hover{
+    cursor: none;
+}
+
+/* .skillabt{
     font-family: "Noto Serif Display", serif;
     color: #262930;
-}
+} */
 
 .skillimg{
     display: grid;
@@ -152,13 +169,10 @@ figure{
     height: 45px;
 }
 
+/*
 .internship>.tag{
     font-size: 20px;
-    /* color: #262930; */
-    /* border-left: 2px solid #262930; */
-    /* border-radius: 50px; */
     width: 230px;
-    /* height: 48px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -180,11 +194,7 @@ figure{
 
 .researchp>.tag{
     font-size: 20px;
-    /* color: #262930; */
-    /* border-left: 2px solid #262930; */
-    /* border-radius: 50px; */
     width: 290px;
-    /* height: 48px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -193,11 +203,7 @@ figure{
 
 .education>.tag{
     font-size: 20px;
-    /* color: #262930; */
-    /* border-left: 2px solid #262930; */
-    /* border-radius: 50px; */
     width: 220px;
-    /* height: 48px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -206,7 +212,6 @@ figure{
 
 .heading{
     letter-spacing: 0.5px;
-    /* font-weight: 400; */
 }
 
 .dates{
@@ -221,24 +226,7 @@ figure{
 .context{
     color: #737373;
     width: 480px;
-    /* line-height: 1.8; */
 }
-
-.about{
-    width: 100%;
-    background: #E4E4E4;
-    border-radius: 50px;
-    box-shadow: 1px 1px 20px #B9B9B9;
-}
-
-.abt{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-/* .abt_text{
-    width: 55%;
-} */
 
 .item{
     display: flex;
@@ -291,7 +279,7 @@ figure{
     color: #737373;
     font-size: 14px;
     margin-bottom: 0px;
-}
+} */
 
 .project{
     width: 100%;
